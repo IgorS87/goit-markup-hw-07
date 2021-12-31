@@ -25,9 +25,14 @@ a {
 }
 .container {
   margin: 0 auto;
-
   width: 1200px;
-
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin: 0 auto 50px;
 }
