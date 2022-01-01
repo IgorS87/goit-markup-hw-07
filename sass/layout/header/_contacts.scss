@@ -30,7 +30,7 @@
   &:focus {
     color: $accent-color;
 
-    & .contact__icon {
+    .contact__icon {
       fill: $accent-color;
     }
   }

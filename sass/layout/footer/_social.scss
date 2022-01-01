@@ -38,7 +38,8 @@
   fill: $primary-white-color;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms $timing-function;
-  &:hover {
+  &:hover,
+  &:focus {
     fill: $primary-white-color;
     background-color: $accent-color;
   }
@@ -47,3 +48,23 @@
   width: 20px;
   height: 20px;
 }
+
+// .social__list {
+//   justify-content: center;
+// }
+// .social__item {
+//   display: flex;
+// }
+
+// .social__link {
+
+//   fill: $color-icon;
+//   background-color: $primary-white-color;
+
+//   &:hover,
+//   &:focus {
+//     fill: $primary-white-color;
+//     background-color: $accent-color;
+//   }
+// }
+//
