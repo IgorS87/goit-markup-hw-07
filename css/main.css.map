@@ -11,7 +11,7 @@
         "../sass/components/main/_button.scss",
         "../sass/components/main/_portfolio.scss",
         "../sass/layout/header/_header.scss",
-        "../sass/layout/header/_logotyp.scss",
+        "../sass/layout/header/_logo-header.scss",
         "../sass/layout/header/_site-nav.scss",
         "../sass/layout/header/_contacts.scss",
         "../sass/layout/_hero.scss",
