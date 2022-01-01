@@ -52,12 +52,14 @@
   transition: transform 250ms $timing-function;
 }
 
-.project__link:hover,
-.project__link:focus {
+.project__link {
   display: block;
 
-  box-shadow: $shadow-overlay;
   transition: box-shadow 250ms $timing-function;
+  &:hover,
+  &:focus {
+    box-shadow: $shadow-overlay;
+  }
 }
 
 .project__tehno {
