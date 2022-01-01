@@ -746,7 +746,6 @@ body {
   color: #ffffff;
 }
 
-/* Flex title */
 .occupation__item {
   position: relative;
   height: 294px;
@@ -820,7 +819,6 @@ body {
   text-align: center;
 }
 
-/* Social team */
 .social__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -903,7 +901,7 @@ body {
   border: 1px solid #2196f3;
 }
 
-.customer__link:hover .customer-icon, .customer__link:focus .customer-icon {
+.customer__link:hover .customer__icon, .customer__link:focus .customer__icon {
   fill: #2196f3;
 }
 

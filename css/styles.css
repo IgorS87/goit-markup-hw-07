@@ -759,6 +759,14 @@ a {
 /* .customer-list {
   display: inline-flex;
 }
+
+.customer-item {
+  margin-right: 30px;
+}
+.customer-item:nth-child(6n) {
+  margin: 0px;
+}
+
 .customer-link {
   display: flex;
 }
@@ -777,12 +785,7 @@ a {
   border: 1px solid var(--accent-color);
 }
 
-.customer-item {
-  margin-right: 30px;
-}
-.customer-item:nth-child(6n) {
-  margin: 0px;
-}
+
 .customer-icon {
   display: flex;
   height: 60px;
